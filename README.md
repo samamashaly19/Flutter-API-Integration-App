@@ -1,6 +1,8 @@
 # Flutter-API-Integration-App
 A Flutter mobile application demonstrating API integration, state management, and animations with a clean, structured architecture.
+
 Project Structure
+
 lib/
 ├── main.dart
 ├── app/
@@ -20,6 +22,7 @@ lib/
 └── utils/
     ├── app_colors.dart
     └── app_validation.dart
+    
 State Management
 This app uses Cubit from the flutter_bloc package for state management.
 
@@ -37,6 +40,7 @@ States: CharactersInitial, CharactersLoading, CharactersLoaded, CharactersError
 Methods: fetchCharacters()
 
 Animations Implemented
+
 1. Hero Animations
 Logo Transition: Consistent hero tag 'app-logo' between login and register screens
 
@@ -87,6 +91,7 @@ dependencies:
   http: ^1.1.0
   flutter_bloc: ^8.1.3
   equatable: ^2.0.5
+  
 API Used
 The app integrates with The Movie Database (TMDB) API to fetch popular people/characters:
 
